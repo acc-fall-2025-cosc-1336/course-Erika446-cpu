@@ -1,5 +1,6 @@
-import devprocess
+from devprocess import multiply_numbers
 
-result = devprocess.add_numbers(5, 5)
+def main():
+    result = multiply_numbers (7, 7)
+    print ("The total is:", result)
 
-print(result)
